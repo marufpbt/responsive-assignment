@@ -134,6 +134,8 @@ header{
 	background-color: #ffffff;
 	transition: .3s ease-in-out;
 }
+
+/* Meadia Queries */
 @media (min-width: 576px) and (max-width: 991.98px) {
 	h3 {
 		color: #FA804C;
@@ -162,12 +164,7 @@ header{
 	.navbar-nav > a {
 		padding: 15px 0;
 	}
-	.card-deck {
-		display: block;
-	}
-	.card-deck .card {
-		margin-bottom: 2em;
-	}
+
  }
 @media (max-width: 767px){
 	.mobile-preview{
@@ -198,3 +195,12 @@ header{
 	}
  }
 
+
+ @media (min-width: 576px) and (max-width: 767px) {
+	.card-deck {
+		display: block;
+	}
+	.card-deck .card {
+		margin-bottom: 2em;
+	}
+ }
