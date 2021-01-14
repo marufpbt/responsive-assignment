@@ -134,7 +134,7 @@ header{
 	background-color: #ffffff;
 	transition: .3s ease-in-out;
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 576px) and (max-width: 991.98px) {
 	h3 {
 		color: #FA804C;
 		font-size: 25px;
@@ -177,7 +177,7 @@ header{
 		padding: 20px 0;
 	}
 }
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) {
 	.navbar-nav > a {
 		font-size: 16px;
 		padding: 45px 0;
@@ -191,3 +191,4 @@ header{
 		margin-right: 30px;
 	}
  }
+
