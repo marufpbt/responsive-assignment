@@ -85,7 +85,14 @@ header{
 	padding: 15px;
     border-radius: 20px;
 }
-
+.btn-style:hover{
+	background:#173b67;
+}
+/* feature */
+.single-feature{
+	border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
 
 @media (min-width: 992px){
 	.navbar-nav > a{
