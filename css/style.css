@@ -207,6 +207,9 @@ header{
 		margin-right: 50px;
 		margin-left: 50px;
 	}
+	.feature-wrapper{
+		padding: 50px;
+	}
  }
  @media (min-width: 768px) and (max-width: 991px) {
 	 .navbar-brand img{
